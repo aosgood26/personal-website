@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.landing_column1{
+  width:20%;
+}
+.landing_column2{
+  width:20%;
+}
+.landing_column3{
+  width:20%;
+}
+.landing_column4{
+  width:20%;
+}
+.landing_column5{
+  width:20%;
+}
+
+[class*="landing_column"]{
+  float: left;
+}
+
+.landing_row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column{
+    float: left;
+    width: 25%;
+  }
+
+.i_row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.i_column {
+  flex: 25%;
+  max-width: 24%;
+  padding: 0 4px;
+}
+
+.i_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .i_column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .i_column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: goldenrod;
+}
+
+a:hover {
+  color: gold;
+}
+
+a:active {
+  color: goldenrod;
+}

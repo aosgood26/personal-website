@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ao io</title>
+    <meta charset="utf-8">
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
+    <link rel="stylesheet" type="text/css" href="io.css" media="screen" />
+  </head>
+
+  <body>
+  <!--
+    I had a hell of a time trying to vertically center the nav bar on this page, margin-top/margin-bottom don't seem to work on div's that have the display:table property.
+    Also did some experiments with divs and different div classes/properties, which is why there's a separate class for the landing page row/columns.
+    Even tried two different complex solutions I found on stackoverflow, but none of it worked. Oh well, it still looks pretty good, just would be better on mobile if I could have done it IMO.
+  -->
+        <div class="landing_column">
+          <img src="blank.png" alt="You weren't supposed to see this! It's an empty placeholder image to make the alignment of navigation bar links work. Have a good day!">
+        </div>
+        <div class="landing_column">
+          <a href="input.html">
+            <img src="i.png" onmouseover="this.src='i_glow.png';" onmouseout="this.src='i.png';" alt="the letter i">
+          </a>
+        </div>
+        <div class="landing_column">
+          <a href="alex.html">
+            <img src="slash.png" onmouseover="this.src='slash_glow.png';" onmouseout="this.src='slash.png';" alt="the slash symbol">
+          </a>
+        </div>
+        <div class="landing_column">
+          <a href="output.html">
+            <img src="o.png" onmouseover="this.src='o_glow.png';" onmouseout="this.src='o.png';" alt="the letter o">
+          </a>
+        </div>
+        <div class="landing_column">
+          <img src="blank.png" alt="You weren't supposed to see this! It's an empty placeholder image to make the alignment of navigation bar links work. Have a good day!">
+        </div>
+      <h1>blog, art project, cv + portfolio, forecasting enterprise, experiment in self-identity, and darn good time</h1>
+      <h1>alex osgood
+  </body>
+
+</html>
